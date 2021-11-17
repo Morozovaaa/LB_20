@@ -1,0 +1,198 @@
+@font-face{
+	font-family: "Mak";
+	font-style:normal;
+}
+
+body{
+    width:100%;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color:#4C4037;
+    background-color:#E5D9CF;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+.main{
+  width:100%;
+}
+.next__part{
+  width:100%;
+}
+.text__1{
+position: absolute;
+width: 275px;
+height: 86px;
+left: 66px;
+top: 280px;
+font-family: Mak;
+font-style: normal;
+font-size: 72px;
+line-height: 86px;
+letter-spacing: 0.095em;
+}
+.text__2{
+position: absolute;
+width: 593px;
+height: 86px;
+left: 191px;
+top: 384px;
+font-family: Mak;
+font-style: normal;
+font-size: 72px;
+line-height: 86px;
+letter-spacing: 0.095em;
+}
+.pic__1{
+position: absolute;
+left: 0px;
+top: 0px;
+}
+.pic__2{
+  position: absolute;
+left: 807px;
+top: 109px;
+}
+.pic__3{
+  position: absolute;
+left: 93px;
+top: 860px;
+z-index: 2;
+}
+.pic__4{
+position: absolute;
+left: 630px;
+top: 1012px;
+z-index: 1;
+}
+.text__3{
+position: absolute;
+width: 655px;
+height: 360px;
+left: 832px;
+top: 1210px;
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 128.4%;
+letter-spacing: 0.1em;
+}
+.pic__5{
+position: absolute;
+left: 4px;
+top: 1886px;
+}
+.text__4{
+  position: absolute;
+width: 420px;
+height: 322px;
+left: 167px;
+top: 2250px;
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 130.4%;
+letter-spacing: 0.1em;
+}
+.text__5{
+position: absolute;
+width: 1151px;
+height: 132px;
+left: 224px;
+top: 2840px;
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 55px;
+line-height: 66px;
+text-align: center;
+letter-spacing: 0.1em;
+}
+.pic__6{
+  position: absolute;
+width: 537px;
+height: 717px;
+left: 98px;
+top: 3113px;
+}
+.pic__7{
+  position: absolute;
+width: 824px;
+height: 487px;
+top:3110px;
+left:679px;
+}
+.pic__8{
+  position: absolute;
+width: 537px;
+height: 813px;
+left: 98px;
+top: 3875px;
+}
+.pic__9{
+  position: absolute;
+width: 824px;
+height: 1059px;
+left: 679px;
+top: 3629px;
+}
+.pic__6{
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+   }
+   .pic__6 img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .pic__6 img:hover {
+    transform: scale(1.1); 
+      cursor: pointer;/* Увеличиваем масштаб */
+   }
+   .pic__7{
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+   }
+   .pic__7 img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .pic__7 img:hover {
+    transform: scale(1.1); 
+      cursor: pointer;/* Увеличиваем масштаб */
+   }
+   .pic__8{
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+   }
+   .pic__8 img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .pic__8 img:hover {
+    transform: scale(1.1); 
+      cursor: pointer;/* Увеличиваем масштаб */
+   }
+  .pic__9{
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+   }
+   .pic__9 img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .pic__9 img:hover {
+    transform: scale(1.1); 
+      cursor: pointer;/* Увеличиваем масштаб */
+   }
+   .pic__10{
+    position: absolute;
+    left:1260px;
+    top:2550px;
+   }
+
